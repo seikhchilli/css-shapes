@@ -25,6 +25,7 @@ body{
 	width: 0;
 	border-right: 50px solid transparent;
 	border-left: 50px solid transparent;
+	border-top: 100px solid yellow;
 
 }
 .triangle-down {
@@ -54,4 +55,18 @@ body{
 		top: -200px;
 		left: -100px;
 	}
+
+.bars{
+	width: 200px;
+	background: white;
+	border-radius: 10px;
+
+
+}
+
+.filler{
+	width: 90%;
+	background-color: blue;
+	border-radius: 10px;
+}
 
