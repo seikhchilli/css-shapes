@@ -57,7 +57,7 @@ body{
 	}
 
 .bars{
-	width: 200px;
+	width: 500px;
 	background: white;
 	border-radius: 10px;
 
@@ -65,12 +65,14 @@ body{
 }
 
 .filler{
-	width: 90%;
+	width: 50%;
 	background-color: blue;
 	border-radius: 10px;
 	animation: barfill;
 	animation-duration: 2s;
 	animation-direction:normal;
+	padding: 10px;
+	content: "";
 }
 
 @keyframes barfill{
@@ -78,7 +80,10 @@ body{
 		width: 0%;
 
 	}
+	70%{
+		width: 97%;
+	}
 	100%{
-		width: 90%;
+		width: 50%;
 	}
 }
