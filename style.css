@@ -1,0 +1,57 @@
+body{
+	background-color: red;
+	align-content:center;
+	text-align: center;
+}
+.square{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+}
+.rectangle{
+	width: 200px;
+	height: 100px;
+	background: yellow;
+}
+.circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: yellow;
+}
+.triangle-up{
+	border-bottom: 100px solid yellow;
+	height: 0;
+	width: 0;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+
+}
+.triangle-down {
+	border-top: 100px solid yellow;
+	height: 0;
+	width: 0;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+}
+.star-6points {
+	border-top: 150px solid yellow;
+	height: 0;
+	width: 0;
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	position:relative;
+}
+
+	.star-6points::after {
+		border-bottom: 150px solid yellow;
+		height: 0;
+		width: 0;
+		border-right: 100px solid transparent;
+		border-left: 100px solid transparent;
+		position: absolute;
+		content: "";
+		top: -200px;
+		left: -100px;
+	}
+
