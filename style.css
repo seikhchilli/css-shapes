@@ -68,5 +68,17 @@ body{
 	width: 90%;
 	background-color: blue;
 	border-radius: 10px;
+	animation: barfill;
+	animation-duration: 2s;
+	animation-direction:normal;
 }
 
+@keyframes barfill{
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 90%;
+	}
+}
